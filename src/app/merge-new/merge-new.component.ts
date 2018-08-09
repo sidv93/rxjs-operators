@@ -20,5 +20,4 @@ export class MergeNewComponent implements OnInit {
 
     this.mergeResult = merge(b1,b2);
   }
-
 }
