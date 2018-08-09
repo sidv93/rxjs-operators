@@ -1,4 +1,4 @@
-import { ModuleWithProviders } from "../../node_modules/@angular/core";
+import { ModuleWithProviders } from "@angular/core";
 import { Routes, RouterModule } from '@angular/router';
 import { CombinelatestComponent } from "./operators/combinelatest/combinelatest.component";
 import { MergeComponent } from "./operators/merge/merge.component";
@@ -13,7 +13,7 @@ import { DistinctuntilchangedComponent } from "./operators/distinctuntilchanged/
 import { FilterComponent } from "./operators/filter/filter.component";
 import { TakeComponent } from "./operators/take/take.component";
 import { TakeuntilComponent } from "./operators/takeuntil/takeuntil.component";
-import { ThrottleComponent } from "./operators/throttle/throttle.component";
+import { ThrottleComponent } from "./operators/throttleTime/throttleTime.component";
 import { ShareComponent } from "./operators/share/share.component";
 import { SharereplayComponent } from "./operators/sharereplay/sharereplay.component";
 import { BuffertimeComponent } from "./operators/buffertime/buffertime.component";

@@ -1,3 +1,8 @@
-<p>
-  combinelatest works!
-</p>
+<h3 style="text-align: center">Combine Latest</h3>
+<p>CombinLatest combines two individual observables into one and emits the latest value from each.</p>
+<p>In this example, we have two buttons, we take the click events from both and apply the operator to display how many times both of them are clicked.</p>
+<br><br>
+<button #button1>Button 1</button>&nbsp;&nbsp;
+<button #button2>Button 2</button>
+<br><br>
+<p>{{combineLatestResult | async}}</p>

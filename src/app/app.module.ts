@@ -16,7 +16,7 @@ import { DistinctuntilchangedComponent } from './operators/distinctuntilchanged/
 import { FilterComponent } from './operators/filter/filter.component';
 import { TakeComponent } from './operators/take/take.component';
 import { TakeuntilComponent } from './operators/takeuntil/takeuntil.component';
-import { ThrottleComponent } from './operators/throttle/throttle.component';
+import { ThrottleComponent } from './operators/throttleTime/throttleTime.component';
 import { FirstComponent } from './operators/first/first.component';
 import { LastComponent } from './operators/last/last.component';
 import { ShareComponent } from './operators/share/share.component';

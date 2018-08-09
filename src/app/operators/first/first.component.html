@@ -1,3 +1,7 @@
-<p>
-  first works!
-</p>
+<h3 style="text-align: center">First</h3>
+<p>First only takes the first emitted value from the observable. Its the opposite of last.</p>
+<p>In this example, we take events from a button click and apply first. We see that only one value is emitted </p>
+<br><br>
+<button #button1>Button1</button>
+<br>
+<p>{{firstResult | async}}</p>
