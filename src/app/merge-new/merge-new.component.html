@@ -1,0 +1,10 @@
+<h3 style="text-align: center">Merge</h3>
+<p>Merge combines two observables into one and emits a single observable as output.</p>
+<p>In this example, we are combining the button clicks from two buttons. Unlike combineLatest where we got the sum of the two button clicks, with merge, we only get
+  number of clicks on each buttons
+</p>
+<br><br>
+<button #button1>Button 1</button>&nbsp;&nbsp;
+<button #button2>Button 2</button>
+<br><br>
+<p>{{mergeResult | async}}</p>
