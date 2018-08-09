@@ -1,0 +1,8 @@
+<h3 style="text-align: center">Throttle Time</h3>
+<p>Throttle time emits the last emitted value in that time period. It does not emit the values during the time period</p>
+<p>It is similar to debounceTime, but throttleTime does not hold the values</p>
+<p>In this example, we are throttling the keyup event for 3s</p>
+<br><br>
+<input type="text" #inputText>
+<br>
+<p>{{throttleResult | async}}</p>
