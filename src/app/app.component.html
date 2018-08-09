@@ -1,11 +1,36 @@
-<input type="text" id="forms" #input>
-<p >Input = {{formInput$}}</p>
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+  <img width="200" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+</div>
+<ul class="nav nav-tabs">
+  <li [ngClass]="{ 'active' : selected === 0 }" (click)="selected = 0"><a routerLink="combineLatest">Combine Latest</a></li>
+  <li [ngClass]="{ 'active' : selected === 1 }" (click)="selected = 1"><a routerLink="merge">Merge</a></li>
+  <li [ngClass]="{ 'active' : selected === 2 }" (click)="selected = 2"><a routerLink="concat">Concat</a></li>
+  <li [ngClass]="{ 'active' : selected === 3 }" (click)="selected = 3"><a routerLink="startWith">StartWith</a></li>
+  <li [ngClass]="{ 'active' : selected === 4 }" (click)="selected = 4"><a routerLink="of">Of</a></li>
+  <li [ngClass]="{ 'active' : selected === 5 }" (click)="selected = 5"><a routerLink="from">From</a></li>
+  <li [ngClass]="{ 'active' : selected === 6 }" (click)="selected = 6"><a routerLink="catch">Catch</a></li>
+  <li [ngClass]="{ 'active' : selected === 7 }" (click)="selected = 7"><a routerLink="catchError">CatchError</a></li>
+  <li [ngClass]="{ 'active' : selected === 8 }" (click)="selected = 8"><a routerLink="debounceTime">DebounceTime</a></li>
+  <li [ngClass]="{ 'active' : selected === 9 }" (click)="selected = 9"><a routerLink="distictUntilChanged">DistinctUntilChanged</a></li>
+  <li [ngClass]="{ 'active' : selected === 10 }" (click)="selected = 10"><a routerLink="filter">Filter</a></li>
+  <li [ngClass]="{ 'active' : selected === 11 }" (click)="selected = 11"><a routerLink="first">First</a></li>
+  <li [ngClass]="{ 'active' : selected === 12 }" (click)="selected = 12"><a routerLink="last">Last</a></li>
+  <li [ngClass]="{ 'active' : selected === 13 }" (click)="selected = 13"><a routerLink="take">Take</a></li>
+  <li [ngClass]="{ 'active' : selected === 14 }" (click)="selected = 14"><a routerLink="takeUntil">TakeUntil</a></li>
+  <li [ngClass]="{ 'active' : selected === 15 }" (click)="selected = 15"><a routerLink="throttle">Throttle</a></li>
+  <li [ngClass]="{ 'active' : selected === 16 }" (click)="selected = 16"><a routerLink="share">Share</a></li>
+  <li [ngClass]="{ 'active' : selected === 17 }" (click)="selected = 17"><a routerLink="shareReplay">ShareReplay</a></li>
+  <li [ngClass]="{ 'active' : selected === 18 }" (click)="selected = 18"><a routerLink="bufferTime">BufferTime</a></li>
+  <li [ngClass]="{ 'active' : selected === 19 }" (click)="selected = 19"><a routerLink="concatMap">ConcatMap</a></li>
+  <li [ngClass]="{ 'active' : selected === 20 }" (click)="selected = 20"><a routerLink="map">Map</a></li>
+  <li [ngClass]="{ 'active' : selected === 21 }" (click)="selected = 21"><a routerLink="mergeMap">MergeMap</a></li>
+  <li [ngClass]="{ 'active' : selected === 22 }" (click)="selected = 22"><a routerLink="scan">Scan</a></li>
+  <li [ngClass]="{ 'active' : selected === 23 }" (click)="selected = 23"><a routerLink="switchMap">SwitchMap</a></li>
+  <li [ngClass]="{ 'active' : selected === 24 }" (click)="selected = 24"><a routerLink="do-tap">Do/Tap</a></li>
+</ul>
 
-<!-- <button id="b1" #b1>Button1</button>
-<button id="b2" #b2>Button2</button>
-<p>{{button1 | async}}</p> -->
-<!-- 
-<div id="locationDisplay" style="height: 100px; width: 100px; background-color: yellow">
-    Where would you click first?
-  </div>
-   -->
+<router-outlet></router-outlet>

@@ -9,13 +9,14 @@ import { map, mapTo, startWith, scan, delay, concat, withLatestFrom, catchError,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements AfterViewInit {
+  public selected = 0;
   @ViewChild('input') formValue;
   @ViewChild('b1') b1;
   @ViewChild('b2') b2;
 
   public button1;
   public formInput$: Observable<any>;
-
+  public title= "Rxjs operators";
   //timerOne emits first value at 1s, then once every 4s
   public timerOne = interval(1000);
   //timerTwo emits first value at 2s, then once every 4s
@@ -24,7 +25,6 @@ export class AppComponent implements AfterViewInit {
   public timerThree = timer(2000);
 
   public constructor() {
-
   }
 
   public ngAfterViewInit() {
