@@ -9,7 +9,6 @@ import { MergeComponent } from './operators/merge/merge.component';
 import { StartwithComponent } from './operators/startwith/startwith.component';
 import { FromComponent } from './operators/from/from.component';
 import { OfComponent } from './operators/of/of.component';
-import { CatchComponent } from './operators/catch/catch.component';
 import { CatcherrorComponent } from './operators/catcherror/catcherror.component';
 import { DebouncetimeComponent } from './operators/debouncetime/debouncetime.component';
 import { DistinctuntilchangedComponent } from './operators/distinctuntilchanged/distinctuntilchanged.component';
@@ -39,7 +38,6 @@ import { router } from './app.routing';
     StartwithComponent,
     FromComponent,
     OfComponent,
-    CatchComponent,
     CatcherrorComponent,
     DebouncetimeComponent,
     DistinctuntilchangedComponent,

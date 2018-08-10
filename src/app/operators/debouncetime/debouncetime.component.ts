@@ -15,7 +15,7 @@ export class DebouncetimeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    let input = fromEvent(this.inputText.nativeElement, 'keyup').pipe(map(e => e.target.value));
+    let input = fromEvent(this.inputText.nativeElement, 'keyup').pipe(map(e => e['target'].value));
     this.debounceResult = input.pipe(debounceTime(3000));
   }
 

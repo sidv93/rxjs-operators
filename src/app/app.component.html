@@ -12,7 +12,6 @@
   <li [ngClass]="{ 'active' : selected === 3 }" (click)="selected = 3"><a routerLink="startWith">StartWith</a></li>
   <li [ngClass]="{ 'active' : selected === 4 }" (click)="selected = 4"><a routerLink="of">Of</a></li>
   <li [ngClass]="{ 'active' : selected === 5 }" (click)="selected = 5"><a routerLink="from">From</a></li>
-  <li [ngClass]="{ 'active' : selected === 6 }" (click)="selected = 6"><a routerLink="catch">Catch</a></li>
   <li [ngClass]="{ 'active' : selected === 7 }" (click)="selected = 7"><a routerLink="catchError">CatchError</a></li>
   <li [ngClass]="{ 'active' : selected === 8 }" (click)="selected = 8"><a routerLink="debounceTime">DebounceTime</a></li>
   <li [ngClass]="{ 'active' : selected === 9 }" (click)="selected = 9"><a routerLink="distictUntilChanged">DistinctUntilChanged</a></li>
@@ -33,4 +32,4 @@
   <li [ngClass]="{ 'active' : selected === 24 }" (click)="selected = 24"><a routerLink="do-tap">Do/Tap</a></li>
 </ul>
 
-<router-outlet></router-outlet>
+<div style="margin-left: 5%;"><router-outlet></router-outlet></div>

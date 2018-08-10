@@ -1,3 +1,7 @@
-<p>
-  scan works!
-</p>
+<h3 style="text-align: center">Scan</h3>
+<p>Scan holds the previously emitted values in a projection function.</p>
+<p>In this example, we hold the number of clicks on a button by adding them with scan</p>
+<br><br>
+<button #button1>Click me!</button>
+<br>
+<p>{{scanResult | async}}</p>

@@ -6,7 +6,6 @@ import { ConcatComponent } from "./operators/concat/concat.component";
 import { StartwithComponent } from "./operators/startwith/startwith.component";
 import { FromComponent } from "./operators/from/from.component";
 import { OfComponent } from "./operators/of/of.component";
-import { CatchComponent } from "./operators/catch/catch.component";
 import { CatcherrorComponent } from "./operators/catcherror/catcherror.component";
 import { DebouncetimeComponent } from "./operators/debouncetime/debouncetime.component";
 import { DistinctuntilchangedComponent } from "./operators/distinctuntilchanged/distinctuntilchanged.component";
@@ -44,9 +43,6 @@ const routes: Routes = [
     },
     {
         path: 'from', component: FromComponent
-    },
-    {
-        path: 'catch', component: CatchComponent
     },
     {
         path: 'catchError', component: CatcherrorComponent
