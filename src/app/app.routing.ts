@@ -24,6 +24,7 @@ import { SwitchmapComponent } from "./operators/switchmap/switchmap.component";
 import { DoTapComponent } from "./operators/do-tap/do-tap.component";
 import { FirstComponent } from "./operators/first/first.component";
 import { LastComponent } from "./operators/last/last.component";
+import { WithlatestfromComponent } from "./operators/withlatestfrom/withlatestfrom.component";
 
 const routes: Routes = [
     {
@@ -37,6 +38,9 @@ const routes: Routes = [
     },
     {
         path: 'startWith', component: StartwithComponent
+    },
+    {
+        path: 'withLatestFrom', component: WithlatestfromComponent
     },
     {
         path: 'of', component: OfComponent

@@ -28,6 +28,7 @@ import { ScanComponent } from './operators/scan/scan.component';
 import { SwitchmapComponent } from './operators/switchmap/switchmap.component';
 import { DoTapComponent } from './operators/do-tap/do-tap.component';
 import { router } from './app.routing';
+import { WithlatestfromComponent } from './operators/withlatestfrom/withlatestfrom.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { router } from './app.routing';
     MergemapComponent,
     ScanComponent,
     SwitchmapComponent,
-    DoTapComponent
+    DoTapComponent,
+    WithlatestfromComponent
   ],
   imports: [
     BrowserModule,
