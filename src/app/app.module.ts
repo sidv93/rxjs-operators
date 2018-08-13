@@ -19,7 +19,6 @@ import { ThrottleComponent } from './operators/throttleTime/throttleTime.compone
 import { FirstComponent } from './operators/first/first.component';
 import { LastComponent } from './operators/last/last.component';
 import { ShareComponent } from './operators/share/share.component';
-import { SharereplayComponent } from './operators/sharereplay/sharereplay.component';
 import { BuffertimeComponent } from './operators/buffertime/buffertime.component';
 import { ConcatmapComponent } from './operators/concatmap/concatmap.component';
 import { MapComponent } from './operators/map/map.component';
@@ -29,6 +28,8 @@ import { SwitchmapComponent } from './operators/switchmap/switchmap.component';
 import { DoTapComponent } from './operators/do-tap/do-tap.component';
 import { router } from './app.routing';
 import { WithlatestfromComponent } from './operators/withlatestfrom/withlatestfrom.component';
+import { ForkjoinComponent } from './operators/forkjoin/forkjoin.component';
+import { ZipComponent } from './operators/zip/zip.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,6 @@ import { WithlatestfromComponent } from './operators/withlatestfrom/withlatestfr
     FirstComponent,
     LastComponent,
     ShareComponent,
-    SharereplayComponent,
     BuffertimeComponent,
     ConcatmapComponent,
     MapComponent,
@@ -57,7 +57,9 @@ import { WithlatestfromComponent } from './operators/withlatestfrom/withlatestfr
     ScanComponent,
     SwitchmapComponent,
     DoTapComponent,
-    WithlatestfromComponent
+    WithlatestfromComponent,
+    ForkjoinComponent,
+    ZipComponent
   ],
   imports: [
     BrowserModule,

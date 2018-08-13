@@ -11,6 +11,8 @@
   <li [ngClass]="{ 'active' : selected === 2 }" (click)="selected = 2"><a routerLink="concat">Concat</a></li>
   <li [ngClass]="{ 'active' : selected === 3 }" (click)="selected = 3"><a routerLink="startWith">StartWith</a></li>
   <li [ngClass]="{ 'active' : selected === 25 }" (click)="selected = 25"><a routerLink="withLatestFrom">WithLatestFrom</a></li>
+  <li [ngClass]="{ 'active' : selected === 26 }" (click)="selected = 26"><a routerLink="forkJoin">ForkJoin</a></li>
+  <li [ngClass]="{ 'active' : selected === 27 }" (click)="selected = 27"><a routerLink="zip">Zip</a></li>
   <li [ngClass]="{ 'active' : selected === 4 }" (click)="selected = 4"><a routerLink="of">Of</a></li>
   <li [ngClass]="{ 'active' : selected === 5 }" (click)="selected = 5"><a routerLink="from">From</a></li>
   <li [ngClass]="{ 'active' : selected === 7 }" (click)="selected = 7"><a routerLink="catchError">CatchError</a></li>
@@ -21,9 +23,8 @@
   <li [ngClass]="{ 'active' : selected === 12 }" (click)="selected = 12"><a routerLink="last">Last</a></li>
   <li [ngClass]="{ 'active' : selected === 13 }" (click)="selected = 13"><a routerLink="take">Take</a></li>
   <li [ngClass]="{ 'active' : selected === 14 }" (click)="selected = 14"><a routerLink="takeUntil">TakeUntil</a></li>
-  <li [ngClass]="{ 'active' : selected === 15 }" (click)="selected = 15"><a routerLink="throttle">Throttle</a></li>
+  <li [ngClass]="{ 'active' : selected === 15 }" (click)="selected = 15"><a routerLink="throttleTime">Throttle Time</a></li>
   <li [ngClass]="{ 'active' : selected === 16 }" (click)="selected = 16"><a routerLink="share">Share</a></li>
-  <li [ngClass]="{ 'active' : selected === 17 }" (click)="selected = 17"><a routerLink="shareReplay">ShareReplay</a></li>
   <li [ngClass]="{ 'active' : selected === 18 }" (click)="selected = 18"><a routerLink="bufferTime">BufferTime</a></li>
   <li [ngClass]="{ 'active' : selected === 19 }" (click)="selected = 19"><a routerLink="concatMap">ConcatMap</a></li>
   <li [ngClass]="{ 'active' : selected === 20 }" (click)="selected = 20"><a routerLink="map">Map</a></li>

@@ -1,3 +1,7 @@
-<p>
-  throttle works!
-</p>
+<h3 style="text-align: center">Throttle time</h3>
+<p>Throttle emits the latest value when the duration has passed. Kind of the opposite of debounceTime</p>
+<p>In this example, we are putting an input from textbox through throttle of 3s</p>
+<br><br>
+<input type="text" #text>
+<br>
+<p>{{throttleResult$ | async}}</p>

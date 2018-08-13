@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SharereplayComponent } from './sharereplay.component';
+import { ForkjoinComponent } from './forkjoin.component';
 
-describe('SharereplayComponent', () => {
-  let component: SharereplayComponent;
-  let fixture: ComponentFixture<SharereplayComponent>;
+describe('ForkjoinComponent', () => {
+  let component: ForkjoinComponent;
+  let fixture: ComponentFixture<ForkjoinComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SharereplayComponent ]
+      declarations: [ ForkjoinComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SharereplayComponent);
+    fixture = TestBed.createComponent(ForkjoinComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

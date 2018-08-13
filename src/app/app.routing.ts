@@ -14,7 +14,6 @@ import { TakeComponent } from "./operators/take/take.component";
 import { TakeuntilComponent } from "./operators/takeuntil/takeuntil.component";
 import { ThrottleComponent } from "./operators/throttleTime/throttleTime.component";
 import { ShareComponent } from "./operators/share/share.component";
-import { SharereplayComponent } from "./operators/sharereplay/sharereplay.component";
 import { BuffertimeComponent } from "./operators/buffertime/buffertime.component";
 import { ConcatmapComponent } from "./operators/concatmap/concatmap.component";
 import { MapComponent } from "./operators/map/map.component";
@@ -25,6 +24,8 @@ import { DoTapComponent } from "./operators/do-tap/do-tap.component";
 import { FirstComponent } from "./operators/first/first.component";
 import { LastComponent } from "./operators/last/last.component";
 import { WithlatestfromComponent } from "./operators/withlatestfrom/withlatestfrom.component";
+import { ForkjoinComponent } from "./operators/forkjoin/forkjoin.component";
+import { ZipComponent } from "./operators/zip/zip.component";
 
 const routes: Routes = [
     {
@@ -41,6 +42,12 @@ const routes: Routes = [
     },
     {
         path: 'withLatestFrom', component: WithlatestfromComponent
+    },
+    {
+        path: 'forkJoin', component: ForkjoinComponent
+    },
+    {
+        path: 'zip', component: ZipComponent
     },
     {
         path: 'of', component: OfComponent
@@ -73,13 +80,10 @@ const routes: Routes = [
         path: 'takeUntil', component: TakeuntilComponent
     },
     {
-        path: 'throttle', component: ThrottleComponent
+        path: 'throttleTime', component: ThrottleComponent
     },
     {
         path: 'share', component: ShareComponent
-    },
-    {
-        path: 'shareReplay', component: SharereplayComponent
     },
     {
         path: 'bufferTime', component: BuffertimeComponent
